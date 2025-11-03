@@ -70,8 +70,8 @@ Your peer supporters will be your guides throughout the cohort! Learn more about
 
 - [Mike Dean](https://www.notion.so/Mike-Dean-17bcd547af3d807a8526fc8a24363b7a?pvs=21), GitMasters, available at 12 PM ET on Tuesdays
 - [Todd Deshane](https://www.notion.so/Todd-Deshane-c18ecdb96e2c4afaafaa7aad522fa1a3?pvs=21), Merge AI, available at 9 PM ET on Sundays
-- [Laura Funderburk](https://www.notion.so/Laura-Funderburk-1d1cd547af3d80c98f77f27929312add?pvs=21), Agentic Alliance, available 2:30 PM ET on Thursdays
-- [Mani Sarkar](https://www.linkedin.com/in/mani-sarkar/), The Sandbox, available at 6 PM ET on Thursdays
+- [Laura Funderburk](https://www.notion.so/Laura-Funderburk-1d1cd547af3d80c98f77f27929312add?pvs=21), Agentic Alliance, available 5:30 PM ET on Thursdays
+- [Mani Sarkar](https://www.linkedin.com/in/mani-sarkar/), The Sandbox, available at 6 PM ET on Wednesdays
 - [Don Branson](https://www.notion.so/Don-Branson-1c8cd547af3d80e9a221d62d2ddc4036?pvs=21), Distilled Reasoning, available {TBD}
 
 **Additional 1:1 Peer Support Staff (Office Hours Only)**
