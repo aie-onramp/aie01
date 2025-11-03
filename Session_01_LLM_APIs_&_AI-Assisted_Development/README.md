@@ -8,7 +8,7 @@
 ### [Quicklinks](https://github.com/AI-Maker-Space/AIE8/tree/main/00_AIM_Quicklinks)
 
 | ⏺️ Recording     | 🖼️ Slides        | 👨‍💻 Repo         | 📁 Feedback       |
-|:-----------------|:-----------------|:-----------------|:-----------------|
+|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
 |Session 1 Recording Coming Soon | Session 1 Slides Coming Soon | You are here! | Session 1 Feedback Form Coming Soon!
 
 <p align="center"><img src="Gitflow_visualization.png" alt="Gitflow Visualization" width="800px" /></p>
@@ -36,7 +36,7 @@ Your first assignment is straightforward and designed to ensure your development
 **Required steps:**
 - Set up your environment by following the [Environment setup](https://github.com/AI-Maker-Space/Interactive-Dev-Environment-for-AI-Engineers) file
 - Clone the AIEO1 repo into your local folder by following the steps in [Setting up local repo](https://github.com/AI-Maker-Space/AIE8/tree/main/00_Setting%20Up%20Git)
-- Open Cursor, create your new virtual environment, install necessary packages with `pip install -r requirements.txt`
+- Open Cursor, create your new virtual environment, install necessary packages with `uv sync`
 
 **🚀 Short Git Development Setup (Quick Reference - Used in Our Demo):**
 
@@ -52,14 +52,14 @@ git clone git@github.com:yourusername/yourrepo.git
 cd yourrepo
 
 # 2. Add the class repository as "upstream" remote
-git remote add upstream git@github.com:AI-Maker-Space/AIE8.git
+git remote add upstream git@github.com:AI-Maker-Space/AIEO1.git
 
 # 3. Verify both remotes are connected
 git remote -v
 # You should see both "origin" (your repo) and "upstream" (class repo)
 
 # 4. Pull course materials from upstream
-git pull upstream main --allow-unrelated-histories
+git pull upstream main --allow-unrelated-histories #--no-rebase --no-edit -X ours
 
 # 5. Push to your own repo
 git push origin main

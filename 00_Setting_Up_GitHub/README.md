@@ -62,10 +62,10 @@ git remote -v
 You should see an output very similar to this (your origin will be a different address)
 
 ```
-origin  git@github.com:chris-alexiuk/AIEO1.git (fetch)
-origin  git@github.com:chris-alexiuk/AIEO1.git (push)
-upstream        git@github.com:AI-Maker-Space/AIEO1.git (fetch)
-upstream        git@github.com:AI-Maker-Space/AIEO1.git (push)
+origin  git@github.com:chris-alexiuk/AIE8.git (fetch)
+origin  git@github.com:chris-alexiuk/AIE8.git (push)
+upstream        git@github.com:AI-Maker-Space/AIE8.git (fetch)
+upstream        git@github.com:AI-Maker-Space/AIE8.git (push)
 ```
 
 Now, let's look at a diagram of how this works:
