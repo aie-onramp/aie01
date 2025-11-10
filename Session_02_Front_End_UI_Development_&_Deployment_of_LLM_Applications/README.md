@@ -7,7 +7,7 @@
 
 | 🤓 Pre-Class | ⏺️ Recordings| 🖼️ Slide| 👨‍💻 Repos| 📄 Homework| 📁 Feedback| 
 |:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|:-----------------|
-|[Prepare Frontend](https://github.com/AI-Maker-Space/AIEO1/tree/main/02_Prepare_Session_02_Frontend) | Coming Soon | Coming Soon | Coming Soon | Coming Soon | Coming Soon |
+|[Prepare Frontend](https://github.com/AI-Maker-Space/AIEO1/tree/main/02_Prepare_Session_02_Frontend) | [Recording!](https://us02web.zoom.us/rec/share/mZf2dOfxx4bEo1s9GAVSGPB2UWnr_gsd2Mm4PwTmogSNOaI8HGZcINmWMwKPUNA5.-WykBy4-SUnMVPlt) (.w.c3R8U) | [Slides](https://www.canva.com/design/DAG4UAzB7ZU/_-FAs-UDVa0w19YNbgiqLA/edit?utm_content=DAG4UAzB7ZU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) | You are here! | [HW #2](https://forms.gle/jgvqwgsjP7FCEQLZ8) | [Mon, Nov 10](https://forms.gle/VRY9rFCMrrd5EV236) |
 
 # Build 🏗️
 
