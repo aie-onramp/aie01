@@ -44,11 +44,6 @@ def chat(request: ChatRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error calling OpenAI API: {str(e)}")
 
-@app.post("/chat")
-def chat_alt(request: ChatRequest):
-    """Alternative route without /api prefix"""
-    return chat(request)
-
 @app.get("/api/chat")
 def chat_get():
     return {

@@ -69,23 +69,27 @@ The deployed end-to-end LLM application with both frontend and backend on Vercel
 
 Our deployed applications are here: 
 
+## 🌐 Live Demo
+
+You can test the complete application here:
+
 **Basic Applications:**
-- **Backend**: [https://aie-challenge](https://aie-challenge)
-- **Frontend**: [https://aie-challenge-frontend](https://aie-challenge-frontend)
+- **Backend**: [https://aie-challenge.vercel.app/](https://aie-challenge)
+- **Frontend**: [https://aie-challenge-frontend.vercel.app/](https://aie-challenge-frontend)
 - **GitHub**: 
   - [https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge](https://github.com/AI-Maker-Space/The-AI-Engineer-Challenge)
   - [https://github.com/katgaw/AIM-hot-mess-coach-frontend](https://github.com/katgaw/AIM-hot-mess-coach-frontend)
 
 **Advanced Libraries and UI (Vercel):**
-- **Backend Advanced Libraries and UI**: [https://aie-challenge-advanced](https://aie-challenge-advanced)
-- **Frontend Advanced Libraries and UI**: [https://aie-challenge-frontend-advanced-vercel-backend](https://aie-challenge-frontend-advanced-vercel-backend)
+- **Backend Advanced Libraries and UI**: [https://aie-challenge-advanced.vercel.app/](https://aie-challenge-advanced)
+- **Frontend Advanced Libraries and UI**: [https://aim-hot-mess-coach-frontend.vercel.app/](https://aie-challenge-frontend-advanced-vercel-backend)
 - **GitHub**: 
   - [https://github.com/katgaw/aie-challenge-advanced](https://github.com/katgaw/aie-challenge-advanced)
   - [https://github.com/katgaw/aie-challenge-frontend-advanced](https://github.com/katgaw/aie-challenge-frontend-advanced)
 
 **Advanced Libraries and UI (Render):**
 - **Render Backend Advanced Libraries and UI**: [https://aie-challenge-advanced.onrender.com/](https://aie-challenge-advanced.onrender.com/)
-- **Frontend Advanced Libraries and UI**: [https://aie-challenge-frontend-advanced](https://aie-challenge-frontend-advanced)
+- **Frontend Advanced Libraries and UI**: [https://aim-hot-mess-coach-frontend.vercel.app/](https://aie-challenge-frontend-advanced)
 - **GitHub**: 
   - [https://github.com/katgaw/aie-challenge-advanced](https://github.com/katgaw/aie-challenge-advanced)
   - [https://github.com/katgaw/aie-challenge-frontend-advanced](https://github.com/katgaw/aie-challenge-frontend-advanced)
