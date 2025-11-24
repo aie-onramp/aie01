@@ -9,7 +9,7 @@ AIEO1 is an educational bootcamp repository for the AI Engineer Onramp course. T
 **Course Structure:**
 - Session 1: LLM APIs & AI-Assisted Development (Python/Jupyter)
 - Session 2: Front End UI Development & Deployment (Next.js/Vercel)
-- Session 3: Back End Web App Development & Deployment (FastAPI/Render)
+- Session 3: Back End Web App Development & Deployment (FastAPI/Vercel)
 - Session 4: End-to-End LLM Application Development with Coding Agents
 
 ## Development Commands
@@ -33,6 +33,21 @@ npm run dev
 
 # Install Vercel CLI for deployment
 npm install -g vercel
+```
+
+### Session 3 (Backend/FastAPI)
+```bash
+# Navigate to your backend project directory
+cd your-backend-project
+
+# Install Python dependencies
+uv sync
+
+# Run development server (localhost:8000)
+uv run uvicorn api.index:app --reload --host 0.0.0.0 --port 8000
+
+# Deploy to Vercel
+vercel --prod
 ```
 
 ### Git Workflow Commands
@@ -63,7 +78,7 @@ The course is structured to build skills incrementally:
 
 1. **Session 1:** API fundamentals using Jupyter notebooks and OpenAI SDK
 2. **Session 2:** Frontend scaffolding with v0.dev, deployment to Vercel
-3. **Session 3:** Backend integration with FastAPI (upcoming)
+3. **Session 3:** Backend FastAPI with LLM endpoints, deployment to Vercel
 4. **Session 4:** Full-stack applications with coding agents (upcoming)
 
 ### Git Flow Strategy
@@ -125,6 +140,7 @@ From [Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/curso
 - **Session-specific configurations:**
   - Session 1 uses `pyproject.toml` for Python dependencies
   - Session 2 projects have their own Next.js configurations
+  - Session 3 uses `pyproject.toml` for FastAPI backend, with `vercel.json` for deployment routing
 - **Separate entry points:** Each session has distinct learning objectives and technical stacks
 
 ### Working with This Repository
@@ -133,11 +149,14 @@ From [Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/curso
 2. **Feature branch workflow is pedagogical:** Teaches professional Git practices and simulates team development
 3. **All assignments deploy to production:** Students create shareable, deployed applications
 4. **Session 2 workflow:** v0.dev generates initial code → students customize → deploy to Vercel
+5. **Session 3 workflow:** Build features locally (Jupyter/notebooks) → integrate into FastAPI → deploy backend to Vercel → optionally connect v0 frontend
 
 ### Key Files and Locations
 
 - **Session 1 notebook:** [Session_01_LLM_APIs_&_AI-Assisted_Development/OpenAI_playground_for_developers.ipynb](Session_01_LLM_APIs_&_AI-Assisted_Development/OpenAI_playground_for_developers.ipynb)
 - **Session 2 assignment:** [Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/Assignment.md](Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/Assignment.md)
+- **Session 3 assignment:** [Session_03_Back_End_Web_App_Development_&_Deployment_of_LLM_Applications/Assignment.md](Session_03_Back_End_Web_App_Development_&_Deployment_of_LLM_Applications/Assignment.md)
+- **Session 3 sample scripts:** [Session_03_Back_End_Web_App_Development_&_Deployment_of_LLM_Applications/sample_backend_scripts/](Session_03_Back_End_Web_App_Development_&_Deployment_of_LLM_Applications/sample_backend_scripts/)
 - **Git setup instructions:** [00_Setting_Up_GitHub/README.md](00_Setting_Up_GitHub/README.md)
 - **Course resources:** [README.md](README.md)
 
@@ -152,6 +171,13 @@ From [Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/curso
 - Framework: Next.js
 - UI libraries: shadcn/ui, Tailwind CSS
 - Deployment: Vercel CLI
+
+**Python (Session 3):**
+- Package manager: `uv`
+- Framework: FastAPI
+- Key packages: fastapi, uvicorn, openai, python-dotenv
+- Optional: streamlit (for alternative UI), PyPDF2/pdfplumber (for document analysis)
+- Deployment: Vercel (with `vercel.json` routing configuration)
 
 ### Environment Configuration
 
@@ -173,3 +199,27 @@ From [Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/curso
 - Create multiple feature branches to simulate multi-agent development
 - Deploy to Vercel with automatic CI/CD
 - Reference [BreakoutRoom.md](Session_02_Front_End_UI_Development_&_Deployment_of_LLM_Applications/BreakoutRoom.md) for step-by-step guidance
+
+### Session 3: Back End Web App Development & Deployment
+- Build FastAPI backend with LLM chat endpoint (Hot Mess Coach)
+- Follow progressive sample scripts (STEP0-STEP4) to understand incremental feature building
+- Test locally using `uvicorn` before deploying
+- Deploy to Vercel with `vercel.json` configuration that routes all requests to `/api/index.py`
+- Set `OPENAI_API_KEY` as environment variable in Vercel dashboard
+- Advanced: Add document upload/analysis features (PDF/CSV chunking)
+- Advanced: Generate v0 frontend that calls backend `POST /chat` endpoint and deploy separately
+- Reference [Assignment.md](Session_03_Back_End_Web_App_Development_&_Deployment_of_LLM_Applications/Assignment.md) for full-stack integration
+
+**Sample Backend Scripts (Progressive Learning):**
+- `STEP0_app_html.py` - Basic FastAPI serving HTML
+- `STEP1_app_llm.py` - Add LLM integration
+- `STEP2_app_llm_html.py` - Combine LLM with HTML interface
+- `STEP3_app_llm_st.py` - Use Streamlit for UI
+- `STEP4_app_llm_st_doc.py` - Add document analysis capabilities
+
+**Key Backend Architecture Pattern:**
+1. Develop features in isolation (notebooks, scripts)
+2. Integrate into FastAPI application structure (`api/index.py`)
+3. Test locally with `uvicorn`
+4. Deploy to Vercel (backend automatically serves at domain root)
+5. Optionally create separate v0 frontend that calls backend API
