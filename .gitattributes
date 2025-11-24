@@ -1,0 +1,5 @@
+# Git LFS configuration for Session_04
+# Track PNG files in Session_04 with Git LFS
+Session_04_End_to_End_LLM_Application_Development_with_Coding_Agents/**/*.png filter=lfs diff=lfs merge=lfs -text
+Session_04_End_to_End_LLM_Application_Development_with_Coding_Agents/aie_challenge_hotmess/AIM-hot-mess-coach-frontend/frontend-hot-mess-coach/public/mad-turkey.png filter=lfs diff=lfs merge=lfs -text
+Session_04_End_to_End_LLM_Application_Development_with_Coding_Agents/aie_challenge_hotmess/AIM-hot-mess-coach-frontend/frontend-hot-mess-coach/mad-turkey.png filter=lfs diff=lfs merge=lfs -text
